@@ -9,11 +9,23 @@
 * SPDX-License-Identifier: MIT
 *******************************************************************************/
 using System.Security.Cryptography.X509Certificates;
+using System.Xml.Serialization;
 
 namespace BaSyx.Utils.Client.Mqtt
 {
     public class MqttSecurity : IMqttSecurity
     {
+        [XmlElement]
+        public bool UseTls { get; set; }
+        [XmlElement]
+        public string SslProtocols { get; set; }
+        [XmlElement]
+        public bool AllowUntrustedCertificates { get; set; }
+        [XmlElement]
+        public bool IgnoreCertificateChainErrors { get; set; }
+        [XmlElement]
+        public bool IgnoreCertificateRevocationErrors { get; set; }
+
         public X509Certificate CaCert { get; }
         public X509Certificate ClientCert { get; }
 
