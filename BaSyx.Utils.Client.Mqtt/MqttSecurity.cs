@@ -17,6 +17,8 @@ namespace BaSyx.Utils.Client.Mqtt
         public X509Certificate CaCert { get; }
         public X509Certificate ClientCert { get; }
 
+        public MqttSecurity() { }
+
         public MqttSecurity(X509Certificate caCert)
         {
             CaCert = caCert;
