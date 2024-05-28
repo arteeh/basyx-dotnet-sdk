@@ -3,7 +3,6 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <OutputType>Library</OutputType>
     <Configurations>Debug;Release</Configurations>
-    <RunPostBuildEvent>OnOutputUpdated</RunPostBuildEvent>
     <Authors>Constantin Ziesche</Authors>
     <Company>Robert Bosch GmbH</Company>
     <Description>The official BaSyx Collection of Information Model Classes for Export</Description>

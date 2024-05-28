@@ -2,16 +2,15 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <OutputType>Library</OutputType>
-	  <Authors>Constantin Ziesche</Authors>
-	  <Copyright>Copyright 2021 - Robert Bosch GmbH</Copyright>
-	  <PackageProjectUrl>https://wiki.eclipse.org/BaSyx</PackageProjectUrl>
-	  <RepositoryUrl>https://github.com/eclipse-basyx/basyx-dotnet-sdk</RepositoryUrl>
-	  <PackageLicenseUrl></PackageLicenseUrl>
-	  <Description>The official BaSyx Collection of APIs</Description>
-	  <Company>Robert Bosch GmbH</Company>
-	  <PackageTags>BaSys BaSyx API</PackageTags>
-	  <PackageLicenseExpression>EPL-2.0</PackageLicenseExpression>
-	  <RunPostBuildEvent>OnOutputUpdated</RunPostBuildEvent>
+	<Authors>Constantin Ziesche</Authors>
+	<Copyright>Copyright 2021 - Robert Bosch GmbH</Copyright>
+	<PackageProjectUrl>https://wiki.eclipse.org/BaSyx</PackageProjectUrl>
+	<RepositoryUrl>https://github.com/eclipse-basyx/basyx-dotnet-sdk</RepositoryUrl>
+	<PackageLicenseUrl></PackageLicenseUrl>
+	 <Description>The official BaSyx Collection of APIs</Description>
+	<Company>Robert Bosch GmbH</Company>
+	<PackageTags>BaSys BaSyx API</PackageTags>
+	<PackageLicenseExpression>EPL-2.0</PackageLicenseExpression>
     <PackageIcon>basyxlogo.png</PackageIcon>
     <Configurations>Debug;Release</Configurations>
     <Version>1.0.1</Version>

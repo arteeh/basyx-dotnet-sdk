@@ -12,7 +12,6 @@
     <Company>Robert Bosch GmbH</Company>
     <PackageTags>BaSys BaSyx Utils Utilities Dependency Injection Abstrations</PackageTags>
     <PackageLicenseExpression>EPL-2.0</PackageLicenseExpression>
-    <RunPostBuildEvent>OnOutputUpdated</RunPostBuildEvent>
     <PackageIcon>basyxlogo.png</PackageIcon>
     <Version>1.0.1</Version>
   </PropertyGroup>
